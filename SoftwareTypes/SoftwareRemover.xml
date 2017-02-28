@@ -1,0 +1,58 @@
+<SoftwareType>
+	<Name>Software Remover</Name>
+	<Description>Removes all of the uneeded software; very helpful.</Description>
+	<Random>0.2</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.87</Retention>
+	<Iterative>0.45</Iterative>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Category>Removers</Category>
+	<NameGenerator>SoftwareRemover</NameGenerator>
+	<Features>
+		<Feature Forced="True">
+			<Name>System Enter</Name>
+			<Description>First the remover has to enter your system files to remove the baddies right?</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Speed Boost</Name>
+			<Description>Ups the speed of the removal tool by suspending some software</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Software Remover">System Enter</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Root Cleaner</Name>
+			<Description>Cleans out all of the roots, and your whole computer.</Description>
+			<Category>System</Category>
+			<DevTime>5</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Software Remover">System Enter</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Admin Approval</Name>
+			<Description>Allows the software to enter areas even you can't</Description>
+			<Category>System</Category>
+			<DevTime>5</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Software Remover">System Enter</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>
